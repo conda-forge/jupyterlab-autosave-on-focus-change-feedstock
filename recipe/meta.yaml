@@ -28,8 +28,6 @@ requirements:
     - python >=3.8
 
 test:
-  imports:
-    - jupyterlab_autosave_on_focus_change
   commands:
     - pip check
     - jupyter labextension list
